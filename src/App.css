@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif; 
+  background-color:rgb(26 27 35 / 96%);
+}
+.Nav{
+  background-color:#171716;
+}
+.icons{
+  color: white;
+  margin-left: 1rem;
+}
+.input-container {
+  padding: 16px; /* Adjust spacing as needed */
+}
+input{
+  margin-top: 8px;
+  background-color: #171716;
+  color:white !important;
+  font-weight:bolder ;
+}
+.button-container {
+  display: flex;
+  align-items: center; /* Center vertically */
+  margin-bottom: 16px; /* Space below the button container */
+  color: white;
+  padding: 0 1rem 0 1rem;
+  margin-top: 2rem;
+  width: 10rem;
+}
+
+& .MuiInputBase-root {
+  background-color: 'lightblue';
+  color: 'darkblue';
+}
+& .MuiInputBase-input {
+  color: 'darkblue';
+}
+& .MuiFormLabel-root {
+  color: 'darkblue';
+}
+& .MuiFormLabel-root.Mui-focused {
+  color: 'blue';
+}
+& .MuiOutlinedInput-notchedOutline {
+  border-color: 'darkblue';
+}
+&:hover .MuiOutlinedInput-notchedOutline{
+  border-color: 'blue';
+}
+.counter{    
+  width: 3rem;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 25%;
+  border-color: white;
+  color: white;
+  background-color: #171716;
+}
+.loader{
+  color: white;
+  text-align: center;
+  margin:5rem;
+}
